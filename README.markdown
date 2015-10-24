@@ -83,7 +83,7 @@ Minimal bootstrap file for this example
     <?php
 
     // define a working directory
-    define('APP_PATH', dirname(__DIR__)); // PHP v5.3+
+    define('APP_PATH', dirname(__FILE__)); // PHP v5.3+
 
     // load
     require APP_PATH . '/vendor/autoload.php';
